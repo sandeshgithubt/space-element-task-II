@@ -36,10 +36,7 @@
   text-transform: unset !important;
   border-radius: 5px !important;
 }
-.kep-login-facebook{
 
-
-}
 .background-signUp{
   background-image: url("../src/assets/images/signUp.png");
   height: 100Vh;
@@ -49,6 +46,10 @@
   background-size: cover;
 }
 @media(max-width:768px){
+
+  html,body{
+    overflow-x: hidden;
+}
   .form-container{
     position: absolute;
     width: 80%;

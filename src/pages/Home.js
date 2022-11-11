@@ -52,7 +52,9 @@ const Home = () => {
         (<div className="main-layout">
            <div className="navbar">
                   <h1 className="logo">BISTRO FOOD</h1>
-                  <Button variant="danger" onClick={onLogout}>Logout</Button>
+                  <div  className=" btn-wrap">
+                  <Button variant="danger"  onClick={onLogout}>Logout</Button>
+                  </div>
             </div>
 
            

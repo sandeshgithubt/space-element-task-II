@@ -15,6 +15,7 @@ body{
 .btn-danger {
     padding: 5px!important;
 }
+
 .search-box{
     border:none;
     border-bottom: 1.5px solid black;
@@ -108,14 +109,30 @@ ul li.active a{
 
 @media(max-width:768px){
 
-    .navbar .logo{
-        display: block;
-        width: 95%;
-        margin: 0px auto;
-        font-size: 35px;
-       
+    html,body{
+        overflow-x: hidden;
     }
 
+    .btn{
+        margin-top: 10px !important;
+        display:block;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+
+    }
+    .navbar .logo{
+        display:block;
+        width: 95%;
+        font-size: 35px;
+        margin-bottom: 5px !important;
+    }
+    .btn-wrap{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -10px;
+    }
     .search-box{
         margin-top: 25px !important;
     }
