@@ -61,7 +61,7 @@ const Home = () => {
 
             <div className="container-fluid">
                <div className="row">
-                    <div className="col-2 text-center" >
+                    <div className="col-md-2 col-1 text-center" >
                         <ul className="nav-responsive">
                             <li><a href="#">About</a></li>
                             <li><a href="#">Services</a></li>
