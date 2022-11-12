@@ -172,17 +172,6 @@ ul li.active a{
     .food-cards h3{
         display: none;
     }
-/* 
-    ul li:hover a{
-        background-color: rgb(239, 69, 69);
-         text-decoration: none;
-         color:white;
-     }
-     
-     ul li.active a{
-          background-color: rgb(239, 69, 69);
-          text-decoration: none;
-          color:white;
-     } */
+
     
 }
