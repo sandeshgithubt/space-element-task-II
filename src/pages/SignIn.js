@@ -119,12 +119,12 @@ const handleSubmit= async(e)=>{
             onClick={handleGoogleSignIn}
           />
         </div>
-        <div>
-        <Button variant="primary" className="fb-btn" onClick={handleFacebookSignIn}>
+       {/*  <div>
+              <Button variant="primary" className="fb-btn" onClick={handleFacebookSignIn}>
               Login with Facebook
             </Button>
-       
         </div>
+         */}
       </div>
                     </div>
                 </div>
